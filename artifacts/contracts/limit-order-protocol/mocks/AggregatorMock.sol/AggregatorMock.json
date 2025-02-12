@@ -1,0 +1,48 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AggregatorMock",
+  "sourceName": "contracts/limit-order-protocol/mocks/AggregatorMock.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "latestAnswer",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a060405234801561001057600080fd5b5060405161013c38038061013c83398101604081905261002f91610037565b60805261004f565b600060208284031215610048578081fd5b5051919050565b60805160d561006760003960006039015260d56000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806350d25bcd1460375780638205bf6a14606b575b600080fd5b7f00000000000000000000000000000000000000000000000000000000000000005b60405190815260200160405180910390f35b605960006078606442607d565b905090565b600082821015609a57634e487b7160e01b81526011600452602481fd5b50039056fea2646970667358221220c51979727e53029790c726eb2fe6bb472ccca64c02e4a08b041175aefba979e964736f6c63430008040033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806350d25bcd1460375780638205bf6a14606b575b600080fd5b7f00000000000000000000000000000000000000000000000000000000000000005b60405190815260200160405180910390f35b605960006078606442607d565b905090565b600082821015609a57634e487b7160e01b81526011600452602481fd5b50039056fea2646970667358221220c51979727e53029790c726eb2fe6bb472ccca64c02e4a08b041175aefba979e964736f6c63430008040033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
